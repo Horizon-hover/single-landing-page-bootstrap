@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Design Principles</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm sticky-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">DesignHub</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#principles">Principles</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#testimonials">Testimonials</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="container text-center">
+            <h1 class="display-4 fw-bold mb-4">Master Design Principles</h1>
+            <p class="lead mb-4">Learn how typography, color theory, and layout create compelling experiences</p>
+            <a href="#principles" class="btn btn-primary btn-lg px-4 scroll-link">Explore</a>
+        </div>
+    </section>
+
+    <section id="principles" class="py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2>Core Design Principles</h2>
+                <p class="text-muted">Fundamentals that transform good design into great design</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm hover-effect">
+                        <img src="assets/typography.jpg" class="card-img-top" alt="Typography examples">
+                        <div class="card-body text-center p-4">
+                            <div class="feature-icon">
+                                <i class="bi bi-fonts"></i>
+                            </div>
+                            <h3>Typography</h3>
+                            <p>Font pairing, hierarchy, and readability create visual communication that guides users through content with clarity.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm hover-effect">
+                        <img src="assets/colors.jpg" class="card-img-top" alt="Color palette">
+                        <div class="card-body text-center p-4">
+                            <div class="feature-icon">
+                                <i class="bi bi-palette"></i>
+                            </div>
+                            <h3>Color Theory</h3>
+                            <p>Strategic color combinations evoke emotions, establish brand identity, and improve user experience through contrast.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm hover-effect">
+                        <img src="assets/layout.jpg" class="card-img-top" alt="Layout grid">
+                        <div class="card-body text-center p-4">
+                            <div class="feature-icon">
+                                <i class="bi bi-layout-wtf"></i>
+                            </div>
+                            <h3>Layout</h3>
+                            <p>Grid systems, whitespace, and visual balance create intuitive interfaces that users navigate effortlessly.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials" class="py-5 bg-light">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2>What Our Clients Say</h2>
+                <p class="text-muted">Trusted by designers worldwide</p>
+            </div>
+            <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="testimonial-item text-center mx-auto" style="max-width: 800px;">
+                            <img src="assets/client1.jpg" class="rounded-circle mb-3" width="100" alt="Client">
+                            <p class="lead mb-3">"These design principles transformed our product's user engagement by 40% in just two months."</p>
+                            <h5>Sarah Chen</h5>
+                            <p class="text-muted">Creative Director, PixelPerfect</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="testimonial-item text-center mx-auto" style="max-width: 800px;">
+                            <img src="assets/client2.jpg" class="rounded-circle mb-3" width="100" alt="Client">
+                            <p class="lead mb-3">"The color theory course helped our team create a cohesive brand identity across all platforms."</p>
+                            <h5>Michael Johnson</h5>
+                            <p class="text-muted">UX Lead, DesignInnovate</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <p class="mb-0">© 2025 DesignHub. All rights reserved.</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <a href="#" class="text-white me-3"><i class="bi bi-twitter"></i></a>
+                    <a href="#" class="text-white me-3"><i class="bi bi-instagram"></i></a>
+                    <a href="#" class="text-white"><i class="bi bi-dribbble"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
+</body>
+</html>
