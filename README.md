@@ -45,7 +45,7 @@ designhub-landing-page/
 ## Installation
 
 1. Clone the repository:
-git clone https://github.com/yourusername/designhub-landing-page.git
+git clone https://github.com/Horizon-hover/single-landing-page-bootstrap.git
 
 2. Open in your browser:
 Simply open index.html in any modern browser
